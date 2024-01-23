@@ -1,0 +1,112 @@
+
+header {
+    background-color: #f5ba13;
+    font-family: cursive;
+    color: white;
+    padding-left: 15px;
+    margin: auto;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+
+.box {
+    display: grid;
+    margin: 10px;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 20px;
+    position: relative;
+    top: 50px;
+}
+
+.container {
+    border: 2px solid black;
+    width: 300px;
+    height : 150px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.8);
+    border-radius: 6px;
+    overflow-y: hidden;
+}
+
+.input-item{
+    position: relative;
+    left: 400px;
+    width: 500px;
+}
+
+.title {
+    border: 1px solid black;
+    position: relative;
+    top : 20px;
+    left: 10px;
+    width: 400px;
+    height: 25px;
+    background-color: rgb(248, 248, 238);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+input:focus{
+    background-color: rgba(167, 167, 162, 0.4);
+    outline: none;
+}
+
+.add-button {
+    background-color: #f5ba13;
+    color: aliceblue;
+    border-width: 0px;
+    height: 27px;
+    position: relative;
+    top: 78px;
+    left: 32px;
+    width: 50px;
+    font-weight: bold;
+}
+
+.del-button {
+    position: relative;
+    top: 1px;
+    left: 242px;
+    height: 27px;
+    width: 57px;
+    color: white;
+    background-color: #f5ba13;
+    font-weight: bold;
+    border-width: 0px;
+    border-radius: 4px;
+}
+
+.content {
+    position: relative;
+    top : 40px;
+    left: 10px;
+    width: 400px;
+    height: 40px;
+    background-color: rgb(248, 248, 238);
+    border: 1px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.container h2 {
+    word-wrap: break-word;
+    text-align: center;
+    height : 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container p {
+    word-wrap: break-word;
+    padding-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: rgb(48, 47, 47);
+    padding-left: 10px;
+    font-size: 0.6em;
+    width: 150px;
+    margin:auto;
+    position: relative;
+    top: 300px;
+}
